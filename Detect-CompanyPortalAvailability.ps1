@@ -14,6 +14,7 @@
 
 .PARAMETER geoListPath
     The path to the CSV file containing GeoID and region name pairs (semicolon-delimited).
+    Example CSV file can be downloaded here: https://github.com/Kevinnns/Intune_Scripts/blob/main/GeoID_List.csv
 
 .OUTPUTS
     A CSV file named 'CompanyPortalAvailability_Result.csv' listing each GeoID, region, and whether the app was found.
